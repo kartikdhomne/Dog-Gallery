@@ -1,5 +1,5 @@
 .popup-container{
-    position: absolute;
+    position: fixed;
     height: 100%;
     width:100% ;
     background-color:rgba(0, 0, 0, 0.8);
@@ -14,6 +14,7 @@
     height: 500px;
     /* position: relative; */
     overflow: scroll;
+    padding: 20px;
 }
 .upper-box{
     background-color: lightgray;
